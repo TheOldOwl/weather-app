@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <!-- external resources -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="map"></div>
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4">
+                <div class="content-box">
+                    <h4 class="cur-weather location">Current weather in: location</h4>
+                    <img class="icon" src="cloud.svg" alt="icon">
+                    <div class="d-flex">
+                        <p class="temperature">temp</p>    
+                        <span id="units">°C</span>
+                    </div>
+                    <p class="athmosphere">conditions</p>
+                    <p class="humidity">humidity</p>
+                    <p class="wind">wind</p>
+                </div>
+                <!-- <div id="border1">
+                    <h3>Other stuff</h3>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCpxwlJr5tLzZhpZ7W8Aw44HgiDSwNd9w&callback=initMap" 
+    type="text/javascript"></script>
+</body>
+</html>

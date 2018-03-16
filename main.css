@@ -1,0 +1,155 @@
+/* 
+------------------------------------------------------------------
+UNIVERSAL SELECTORS
+------------------------------------------------------------------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, .container-fluid {
+    height: 100%;   
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    /* background-color: #252525; */
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+.container-fluid {
+    padding: 10px;
+}
+
+/* 
+------------------------------------------------------------------
+BORDER IDS TESTING LAYOUT
+------------------------------------------------------------------
+*/
+
+.row {
+    /* height: 100%; */
+    /* position: relative; */
+    /* border: 1px solid red; */
+}
+
+#map {
+    /* height: 90%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); */
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    
+}
+
+#border1 {
+    border: 1px solid red;
+    background-color: blue;
+    opacity: 0.2;
+}
+
+.center-select {
+    opacity: .5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.content-box {
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.3), rgba(255,255,255,.3)), 
+        url('https://steemitimages.com/DQmf9L6CsxfDPegYuc3gnjQXdqiyausCfJa3bPyMWwu3Pif/Clouds-and-stars.jpg');
+    border-radius: 5px;
+    padding-bottom: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+}
+
+.icon {
+    width: 100px;
+    margin: 30px 30px 30px 20px;
+}
+
+.cur-weather {
+    text-transform: uppercase;
+    padding: 20px 20px 0 20px;
+}
+
+p {
+    padding-left: 20px; 
+}
+
+span, p {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #252525;
+}
+
+span {
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
+}
+
+span:hover {
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* 
+------------------------------------------------------------------
+BORDER IDS TESTING LAYOUT
+------------------------------------------------------------------
+*/
+/* .center {
+    text-align: center;
+}
+
+.position {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-box {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 450px) {
+    .mobile {
+        flex-direction: column
+    }
+    p:first-child {
+        margin-left: 20px;
+    }
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
