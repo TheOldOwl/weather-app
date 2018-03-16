@@ -26,32 +26,17 @@ body {
 
 /* 
 ------------------------------------------------------------------
-BORDER IDS TESTING LAYOUT
+
 ------------------------------------------------------------------
 */
 
-.row {
-    /* height: 100%; */
-    /* position: relative; */
-    /* border: 1px solid red; */
-}
-
 #map {
-    /* height: 90%;
-    border-radius: 5px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); */
     position: absolute;
     top: 0;
     left:0;
     bottom: 0;
     right: 0;
     
-}
-
-#border1 {
-    border: 1px solid red;
-    background-color: blue;
-    opacity: 0.2;
 }
 
 .center-select {

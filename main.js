@@ -130,37 +130,37 @@ const displayMedia = () => {
 
     if (weather.isDay) {
         if (weather.cond.includes('rain') || weather.cond.includes('drizzle')) {
-            icon.src = 'rain.svg'
+            icon.src = 'assets/rain.svg'
             bckgr.style.background = weather.layer + " url('https://www.metoffice.gov.uk/binaries/content/gallery/mohippo/images/migrated-image/r/heavy_rain_splashes_shutterstock_148721882.jpg')"
         } else if (weather.cond.includes('sunny')) {
-            icon.src = 'sun.svg'
+            icon.src = 'assets/sun.svg'
             bckgr.style.background = weather.layer + " url('https://wallpapersite.com/images/wallpapers/sunset-1440x900-clear-sky-hd-5168.jpg')"
         } else if (weather.cond.includes('cloudy') || weather.cond.includes('overcast')) {
-            icon.src = 'cloud.svg'
+            icon.src = 'assets/cloud.svg'
             bckgr.style.background = weather.layer + " url('https://steemitimages.com/DQmf9L6CsxfDPegYuc3gnjQXdqiyausCfJa3bPyMWwu3Pif/Clouds-and-stars.jpg')"
         } else if (weather.cond.includes('mist') || weather.cond.includes('fog')) {
-            icon.src = 'mist.svg'
+            icon.src = 'assets/mist.svg'
             bckgr.style.background = weather.layer + " url('http://dreamicus.com/data/mist/mist-07.jpg')"
         } else if (weather.cond.includes('snow') || weather.cond.includes('ice') || weather.cond.includes('sleet')) {
-            icon.src = 'snow.svg'
+            icon.src = 'assets/snow.svg'
             // update snow pic
             bckgr.style.background = weather.layer + " url('http://dreamicus.com/data/mist/mist-07.jpg')"
         }
     } else {
         if (weather.cond.includes('rain') || weather.cond.includes('drizzle')) {
-            icon.src = 'rain-night.svg'
+            icon.src = 'assets/rain-night.svg'
             bckgr.style.background = weather.layer + " url('https://www.metoffice.gov.uk/binaries/content/gallery/mohippo/images/migrated-image/r/heavy_rain_splashes_shutterstock_148721882.jpg')"
         } else if (weather.cond.includes('clear')) {
-            icon.src = 'clear-night.svg'
+            icon.src = 'assets/clear-night.svg'
             bckgr.style.background = weather.layer + " url('https://wallpapersite.com/images/wallpapers/sunset-1440x900-clear-sky-hd-5168.jpg')"
         } else if (weather.cond.includes('cloudy') || weather.cond.includes('overcast')) {
-            icon.src = 'cloud-night.svg'
+            icon.src = 'assets/cloud-night.svg'
             bckgr.style.background = weather.layer + " url('https://steemitimages.com/DQmf9L6CsxfDPegYuc3gnjQXdqiyausCfJa3bPyMWwu3Pif/Clouds-and-stars.jpg')"
         } else if (weather.cond.includes('mist') || weather.cond.includes('fog')) {
-            icon.src = 'mist.svg'
+            icon.src = 'assets/mist.svg'
             bckgr.style.background = weather.layer + " url('http://dreamicus.com/data/mist/mist-07.jpg')"
         } else if (weather.cond.includes('snow') || weather.cond.includes('ice') || weather.cond.includes('sleet')) {
-            icon.src = 'snow.svg'
+            icon.src = 'assets/snow.svg'
             // update snow pic
             bckgr.style.background = weather.layer + " url('http://dreamicus.com/data/mist/mist-07.jpg')"
         }
