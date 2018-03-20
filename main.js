@@ -251,7 +251,7 @@ const positionChange = () => {
     }
 
     // 3. weather for new coordinates
-    newLocationStats(lat, lng)
+    newLocationStats(position.lat, position.lng)
     
     // 4. After map dragends brings widget to opacity 1
     fadeIn()
