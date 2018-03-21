@@ -32,7 +32,8 @@ function initMap() {
 map = new google.maps.Map(document.querySelector('#map'), {
     fullscreenControl: false,
     zoom: 12,
-    mapTypeId: 'roadmap'
+    mapTypeId: 'roadmap',
+    disableDefaultUI: true
 })
 
 // insert code to throw error when maps API doesn't work

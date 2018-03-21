@@ -153,10 +153,9 @@ SEARCH BAR
     position: absolute;
     right: 50px;
     z-index: 10;
-
     outline: none;
     border-radius: 5px;
-
+    width: 400px;
 
     background-color: #fff;
     font-family: Roboto;
@@ -165,7 +164,7 @@ SEARCH BAR
     margin-left: 12px;
     padding: 0 11px 0 13px;
     text-overflow: ellipsis;
-    width: 400px;
+    
     }
 
     #pac-input:focus {
@@ -237,3 +236,24 @@ h3 {
     right: 0;
     bottom: 0;
 } */
+
+@media (max-width: 800px) {
+    #pac-input {
+        left: 0;
+        width: 320px;
+    }
+    .content-box {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    #pac-input {
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0;
+    }
+    .content-box {
+        margin-top: 30px;
+    }
+}
