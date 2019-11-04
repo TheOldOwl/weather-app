@@ -96,7 +96,7 @@ const UIController = (data) => {
     weather.country = data.location.country
     weather.tempCelsius = Math.round(data.current.temp_c)
     weather.tempFarenheit = Math.round(data.current.temp_f)
-    weather.cond = data.current.condition.weather_descriptions[0]
+    weather.cond = data.current.weather_descriptions[0]
     //weather.condId = data.current.condition.code
     weather.humid = data.current.humidity
     weather.wind = data.current.wind_kph
