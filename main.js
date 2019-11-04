@@ -99,7 +99,7 @@ const UIController = (data) => {
     weather.cond = data.current.weather_descriptions[0]
     //weather.condId = data.current.condition.code
     weather.humid = data.current.humidity
-    weather.wind = data.current.wind_kph
+    weather.wind = data.current.wind_speed
     weather.isDay = data.current.is_day
     weather.layer = "linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.3), rgba(255,255,255,.3)),"
     
