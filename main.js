@@ -94,7 +94,7 @@ const UIController = (data) => {
     console.log(data)
     weather.name = placeName
     weather.country = data.location.country
-    weather.tempCelsius = Math.round(data.current.temp_c)
+    weather.tempCelsius = Math.round(data.current.temperature)
     weather.tempFarenheit = Math.round(data.current.temp_f)
     weather.cond = data.current.weather_descriptions[0]
     //weather.condId = data.current.condition.code
