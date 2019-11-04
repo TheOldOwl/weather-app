@@ -90,6 +90,7 @@ UI CONTROLLER
 // UI DISPLAY
 const UIController = (data) => {
     // the name is from g.maps api
+    console.log(data)
     weather.name = placeName
     weather.country = data.location.country
     weather.tempCelsius = Math.round(data.current.temp_c)
@@ -100,7 +101,7 @@ const UIController = (data) => {
     weather.wind = data.current.wind_kph
     weather.isDay = data.current.is_day
     weather.layer = "linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.3), rgba(255,255,255,.3)),"
-    // console.log(data)
+    
     
     // 1. Display Location + Temperature + Conditions + Wind + Humidity
     displayData()
