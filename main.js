@@ -75,7 +75,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 const getWeather = (lat, lon) => {
     // const url = `https://fcc-weather-api.glitch.me/api/current?lat=${lat}&lon=${lon}`
     //const url = `https://api.apixu.com/v1/current.json?key=71d9af2f70b44a24a1f93205181503&q=${lat},${lon}`
-    const url = `http://api.weatherstack.com/current?access_key=b63bb8c8079071e0e88b4519874de4d0&query=${lat},${lon}`
+    const url = `https://api.weatherstack.com/current?access_key=b63bb8c8079071e0e88b4519874de4d0&query=${lat},${lon}`
     fetch(url)
         .then(resp => resp.json())
         .then(UIController)
