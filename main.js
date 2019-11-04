@@ -90,7 +90,7 @@ UI CONTROLLER
 // UI DISPLAY
 const UIController = (data) => {
     // the name is from g.maps api
-    /*
+    
     console.log(data)
     weather.name = placeName
     weather.country = data.location.country
@@ -111,7 +111,7 @@ const UIController = (data) => {
     displayMedia()
     
     // 3. Make data visible after it's fetched
-    bckgr.style.opacity = 1 */
+    bckgr.style.opacity = 1 
 }
 
 
